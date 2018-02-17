@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "294596803584",
+    "firebase_url": "https://electronictest-8f5c9.firebaseio.com",
+    "project_id": "electronictest-8f5c9",
+    "storage_bucket": "electronictest-8f5c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294596803584:android:32802f70d93fec2d",
+        "android_client_info": {
+          "package_name": "com.EgyPoint.Electronic.Tests"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294596803584-ls802263mo7f2r4rqeh2puagej21f2rb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.EgyPoint.Electronic.Tests",
+            "certificate_hash": "6616577a7e310a6aae058246a826c73910eff6d4"
+          }
+        },
+        {
+          "client_id": "294596803584-rqo0de36p6c1hqf3akeb9m1g1njtlcc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAf0LQg_PJ8d-__x7eC6e_npNtYPeOKl4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294596803584-rqo0de36p6c1hqf3akeb9m1g1njtlcc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

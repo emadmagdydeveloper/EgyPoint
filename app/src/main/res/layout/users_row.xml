@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+    <TextView
+        android:id="@+id/user_image_name"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/image_bg"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/user_image_name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/ls_container"
+        android:layout_centerVertical="true"
+
+
+        />
+<FrameLayout
+    android:id="@+id/ls_container"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true"
+    >
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:textSize="13sp"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/status_online"
+        android:layout_gravity="center_vertical|right"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/time_ago"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|right"
+        android:gravity="center_vertical|right"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+
+
+        />
+</FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:background="@color/whit_gray"
+        android:layout_below="@+id/userName"
+        android:layout_toRightOf="@+id/user_image_name"
+        android:layout_marginTop="15dp"
+
+        />
+</RelativeLayout>
